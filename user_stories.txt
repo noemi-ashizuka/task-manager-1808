@@ -1,0 +1,15 @@
+- 1 List Tasks
+- 2 Add a task
+- 3 mark as done
+- 4 remove task
+
+
+MVC - MODEL = Task
+
+Repository => our in memory DB to contain all the tasks instances (singular)
+
+View => puts/gets
+
+Controller => serves the user actions (name: plural)
+
+Router => directs the user to the correct controller action (loop)
